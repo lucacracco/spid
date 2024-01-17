@@ -1,0 +1,8 @@
+name: "SPID Authentication"
+type: module
+core_version_requirement: ^8.8 || ^9 || ^10
+description: "Allows users to authenticate against the Italian SPID system."
+package: "User authentication"
+configure: spid.configure
+dependencies:
+  - externalauth:externalauth
