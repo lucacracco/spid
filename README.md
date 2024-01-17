@@ -29,7 +29,7 @@ Install the module as usual.
 * import the SP metadata to SPID SAML Check (path `https://web/spid/metadata`)
 * Place the *SPID SP Access Button* block somewhere in you layout (only visible to anonymous users and on `/user/login` path)
 * Add a logout link to the user menu (or the menu you want) that points to `/spid/logout`
-* Set session cookie sameSite to `None` (add a `services.yml` file in `web/sites/default` with the following content (because of this [change record](https://www.drupal.org/node/3275352):
+* Set session cookie sameSite to `None` (add a `services.yml` file in `web/sites/default` with the following content (because of this [change record](https://www.drupal.org/node/3275352)):
 
 ```yaml
 parameters:
